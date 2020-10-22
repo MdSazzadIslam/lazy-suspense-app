@@ -1,7 +1,7 @@
 import React, { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-//The following code snippet shows route-based code-splitting
+//route-based code-splitting
 
 const Home = lazy(() => import("./Home"));
 const Dashboard = lazy(() => import("./Dashboard"));
